@@ -1,4 +1,4 @@
-from prius import CarLeft
+from prius import CarLeft, CarRight
 
 if True:
     import network
@@ -17,3 +17,4 @@ if True:
     print('\nWi-Fi connection successful: {}'.format(wlan.ifconfig()))
     
 vroom = CarLeft()
+#nwoom = CarRight()
